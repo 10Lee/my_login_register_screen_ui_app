@@ -40,18 +40,18 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     ClipRRect(
                       borderRadius: BorderRadius.circular(8.0),
                       child: TextField(
-                        keyboardType: TextInputType.emailAddress,
                         style: TextStyle(color: Colors.white),
                         onChanged: (value) {},
                         decoration: kTextInputDecoration.copyWith(
                           hintText: 'Enter your Name',
                           prefixIcon: Icon(
-                            Icons.mail_outline_rounded,
+                            Icons.person_outline,
                             color: Colors.white,
                           ),
                         ),
                       ),
                     ),
+                    SizedBox(height: 35.0),
                     Text(
                       'Email',
                       style: TextStyle(
